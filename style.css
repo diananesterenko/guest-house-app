@@ -1,0 +1,510 @@
+body {
+  font-family: "Montserrat";
+  margin: 0 auto;
+}
+.navbar {
+  background-color: #52503b;
+
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 80px;
+}
+.navbar_wrap {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+.humb {
+  display: none;
+}
+.popup {
+  display: none;
+}
+
+.navbar_wrap .menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+.navbar_wrap .menu > li {
+  display: flex;
+}
+.navbar_wrap .menu > li > a {
+  display: flex;
+}
+.fsmenu {
+  display: flex;
+  align-items: center;
+}
+.fsmenu a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.fsmenu a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+.navbar_wrap .fsmenu .menucont {
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+nav img {
+  margin: 9px 0px 19px 0px;
+  width: 128px;
+  height: 45px;
+}
+
+.booknow {
+  font-weight: 400;
+  font-size: 16px;
+  color: #52503b;
+  background: #ffffff;
+  border-radius: 6px;
+  margin: 9px 0px 19px 0px;
+  padding: 11px 18px 11px 18px;
+  border: 0;
+  height: 45px;
+}
+header div {
+  margin: 18% 0 13% 0;
+}
+header {
+  background-image: url(/images/fon1.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header img {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+header h3 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53px;
+  text-align: center;
+  color: #ffffff;
+  padding: 0 10% 0 10%;
+  margin-bottom: 20px;
+}
+header p {
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.mouse {
+  padding-top: 4%;
+}
+.start {
+  background: #faf8f0;
+  padding: 9% 0 9% 0;
+}
+.butstart {
+  background: #e08631;
+  width: 42px;
+  height: 8px;
+  border: 0;
+  display: block;
+  margin: 0 auto;
+}
+.starttext {
+  padding-top: 33px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+.starttext div {
+  width: 50%;
+}
+.startcontent {
+  display: flex;
+  justify-content: center;
+}
+.starttext2 .booknow {
+  background-color: #52503b;
+  color: #ffffff;
+}
+.starttext1 {
+  margin-right: 40px;
+}
+.label {
+  padding: 9% 0 9% 0;
+}
+.label p {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 96px;
+  margin-top: 70px;
+  text-align: center;
+  padding: 0 77px 0 77px;
+}
+.fon2 img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.aragements {
+  background-color: #faf8f0;
+  padding: 9% 0 9% 0;
+}
+.aragcontent {
+  color: #52503b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aragtext1 {
+  text-align: center;
+}
+h2 {
+  color: #52503b;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+}
+p {
+  color: #52503b;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.aragtext1 p {
+  max-width: 554px;
+}
+.aragtext2 {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+}
+.aragtext2 div {
+  width: 20%;
+  text-align: center;
+}
+
+.escape .butstart {
+  margin: 0 100% 0 0;
+}
+.escapecontent {
+  margin: 0 9.4% 0 9.4%;
+}
+.escapecontent p {
+  width: 45%;
+}
+.escapetextdiv {
+  display: flex;
+  padding-top: 50px;
+}
+.escapetext {
+  display: flex;
+}
+.escapetext1 {
+  width: 50%;
+  margin-right: 20px;
+}
+.escapetext2 {
+  width: 50%;
+}
+.escapetextdiv img {
+  padding-right: 20px;
+}
+.guest {
+  text-align: center;
+}
+.guest p {
+  width: 35%;
+  margin: 0 auto;
+}
+.guest .slider p {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+.beshsection {
+  padding: 9% 0 9% 0;
+  background-color: #faf8f0;
+}
+.whitesection {
+  background-color: #ffffff;
+  padding: 9% 0 9% 0;
+}
+.slide {
+  background-color: #ffffff;
+  width: 584px;
+  height: 266px;
+}
+.slide p {
+  width: 100%;
+}
+.guestcontainer {
+  margin: 0 0 0 9.4%;
+}
+.fon3 img {
+  width: 100%;
+}
+.together {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 9.4% 0 9.4%;
+}
+.togethercont2 {
+  display: flex;
+  justify-content: space-between;
+}
+.colmnrow {
+  display: flex;
+  align-items: center;
+}
+.cont2column {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 50%;
+}
+.togethercont1 p {
+  margin-bottom: 0;
+}
+.togethercont1 {
+  padding-right: 100px;
+}
+.togethercont1 .butstart {
+  margin-left: 0;
+}
+#cont2column1 {
+  margin-right: 15px;
+}
+.cont2column img {
+  margin-right: 15px;
+}
+.contactcontainer {
+  margin: 0 32% 0 32%;
+  text-align: center;
+}
+.butbooknow {
+  background-color: #52503b;
+  color: white;
+}
+.butbooknow:hover {
+  background-color: #6f6e63;
+}
+.navbar_wrap .booknow:hover {
+  background-color: #c8c6bb;
+}
+.starttext .booknow:hover {
+  background-color: #6f6e63;
+}
+.butSubmit:hover {
+  background-color: #6f6e63;
+}
+.butcontact:hover {
+  border-color: #6f6e63;
+}
+.butcontact {
+  background-color: #faf8f0;
+
+  border: 4px solid #52503b;
+}
+.buttonscontact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.emailsection {
+  background-color: #52503b;
+  padding: 9% 9.4% 4% 9.4%;
+}
+.email {
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 50px;
+}
+.emailleftcolm {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 150px;
+}
+.emailleftcolm p {
+  margin: 10px 0 0 0;
+}
+.emailrightcolm {
+  width: 50%;
+}
+.p_upper {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.email p {
+  color: #ffffff;
+}
+.email a {
+  text-decoration: none;
+}
+.mediaphotos {
+  display: flex;
+  justify-content: space-between;
+}
+.emailrightcolm .p_upper {
+  margin-bottom: 0;
+}
+#rightp {
+  margin-top: 3px;
+}
+.emailinput {
+  padding: 0 0 0 30px;
+  display: block;
+  width: 100%;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  height: 52px;
+}
+.booknow {
+  cursor: pointer;
+}
+.butSubmit {
+  position: absolute;
+  color: white;
+  left: 85%;
+  cursor: pointer;
+  background-color: #52503b;
+  border-radius: 10px;
+  border: 0;
+  height: 30px;
+  top: 12px;
+}
+form {
+  position: relative;
+  z-index: 9;
+}
+.pagesdiv {
+  display: flex;
+  flex-direction: column;
+}
+.pagesp {
+  display: flex;
+  flex-direction: column;
+}
+.pagesp a {
+  padding-bottom: 5px;
+  color: white;
+}
+input::placeholder {
+  left: 5%;
+}
+.footer {
+  background-color: #52503b;
+}
+.footercontainer {
+  margin: 0 auto;
+  text-align: center;
+}
+.footercontainer p {
+  color: #ffffff;
+}
+.footercontainer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.slider_item {
+  padding: 0 2% 0 2%;
+  min-width: 0;
+}
+.nameo {
+  position: relative;
+  text-align: left;
+  padding-top: 20px;
+}
+.orangevl {
+  left: 0;
+  height: 20px;
+  border-left: 2px solid #e08631;
+  padding-right: 10px;
+}
+.slider h2 {
+  font-size: 24px;
+  text-align: left;
+}
+.slider {
+  min-width: 0;
+  margin: 30px 0 40px 0;
+  /* padding: 15px 0 15px 0;*/
+}
+.slick-disabled {
+  background-color: #e08631;
+}
+.colorslider {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid rgba(82, 80, 59, 0.1);
+  border-radius: 4px;
+}
+/* Слайдер */
+.slick-slider {
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized {
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted {
+}
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+}
+
+/* Стрелка */
+
+.slick-arrow {
+  font-size: 0;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: transparent;
+  /*
+  position: absolute;
+  bottom: -40%;
+  font-size: 0;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: transparent;*/
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+  right: 19%;
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next {
+  right: 0;
+}
+.arrowsdiv {
+  width: 156px;
+  margin: 0 136px 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {
+  opacity: 0.4;
+  position: relative;
+}
